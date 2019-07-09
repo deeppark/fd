@@ -1,0 +1,273 @@
+## intent:create_contact
+- I want to create a contact record
+- could you please help me in contact creation?
+- would you be able to create a contact for me?
+- create a contact please
+- create contact
+- could you please create a contact fo me?
+
+## intent:enter_data
+- My firstname is [Deepak](firstname)
+- [John](firstname) is my first name.
+- [Justin](firstname)
+- [Prashanth](firstname)
+- [Brian](firstname)
+- [Parkhe](lastname)
+- [Vona](lastname) is my last name.
+- My last name is [Prabhu](lastname)
+- [Dolan](lastname)
+- [Soman](lastname)
+- my email is [deepak.parkhe@gmail.com](primaryemail)
+- email : [deepak@barc.com](primaryemail)
+- email : [dummyk@meail.in](primaryemail)
+- [sasasdodf@sdadas.com](primaryemail)
+- [pimco](client)
+
+## intent:goodbye
+- Talk to you later!
+- Bye for now
+- Awesome, bye bye
+- Goodbye.
+- Talk to you later
+- Goodbye
+- Talk to you later
+- Bye for now
+- Goodbye
+- goodbye
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+- catch you later
+- bye for now
+- bye
+- bye was nice talking to you
+- bye udo
+- bye bye bot
+- bye bot
+- k byyye #slay
+- tlak to you later
+- ciao
+- Bye bye
+- then bye
+- tschüssikowski
+- bye!
+
+## intent:greet
+- Hi
+- Hi fd
+- Hi flightdeck
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hallo
+- heeey
+- hi hi
+- hey
+- hey hey
+- hello there
+- hi
+- hello
+- yo
+- hola
+- hi?
+- hey bot!
+- hello friend
+- good morning
+- hii
+- hello sweet boy
+- yoo
+- hey there
+- hiihihi
+- hello sweatheart
+- hellooo
+- helloooo
+- heyo
+- ayyyy whaddup
+- hello?
+- Hallo
+- heya
+- hey bot
+- howdy
+- Hellllooooooo
+- whats up
+- Hei
+- Well hello there ;)
+- I said, helllllloooooO!!!!
+- Heya
+- Whats up my bot
+- hiii
+- heyho
+- hey, let's talk
+- hey let's talk
+- jojojo
+- hey dude
+- hello it is me again
+- what up
+- hi there
+- hi
+- jop
+- hi friend
+- hi there it's me
+- good evening
+- good morning
+- good afternoon
+
+## intent:interest_search
+- I am looking for interest.
+- I am looking for recommendation.
+- I am looking for interest recommendation.
+- I am looking for recommendation for [hp](client)
+- I'm looking for interest for [lenovo](client)
+- I was looking for recommendation for [blackrock](client)
+- give me some recommendations.
+- give me some recommendations for [apple](client)
+- get me clients interested in [blckrock](client).
+- recommendation.
+- recommendation please.
+- Looking for interest for [hsbc](client).
+- Can you tell me the contacts interested for [Millenium](client)?
+- I need recommendations for [blackrock](client)
+- I want recommendations for [blackrock](client)
+- I am looking for recommendation for [pimco](client)
+- I'm looking for interest for [pimco](client)
+- I was looking for recommendation for [hsbc](client)
+- give me recommendation.
+- get me clients interested in [apple](client).
+- recommendation.
+- recommendation please.
+- Looking for interest for [apple](client).
+- Can you tell me the contacts interested for [microsoft](client)?
+- I need recommendations for [microsoft](client)
+- I want recommendations for [microsoft](client)
+
+## intent:revenue_search
+- I am looking for revenue.
+- can you help me with revenue?
+- I am looking for revenue of [hp](client)
+- I'm looking for revenue of [lenovo](client)
+- I was looking for revenue of [blackrock](client)
+- give me revenue.
+- get me revenue.
+- revenue.
+- revenue please.
+- Looking for revenue for [hsbc](client).
+- Can you tell me the revenue for [Millenium](client)?
+- Is there any revenue for my client?
+- Please tell me the revenue for [pimco](client)?
+- I am wondering if I can find a revenue ?
+- I am looking for a sales credits for my clients.
+- Is there sales credits for [Fidelity](client)?
+- Looking for sales credits.
+- Looking for revenue for [Millenium](client).
+- Can you tell me the revenue for [Apple](client)?
+- Is there any revenue for my client?
+- Please tell me the revenue for [cacacola](client)?
+- I am wondering if I can find a revenue for [pepsi co](client)?
+- I am looking for sales credits for my clients.
+- Is there salescredits for [Micromax](client)?
+- [BPL](client)
+- [Hitachi](client)
+- [Dell](client)
+- [Lenovo](client)
+- what is revenue for [apple](client)?
+- how revenue for [pimco](client) looks like?
+- wondering how revenue for [PIMCO](client) looks like?
+- I am looking for revenue.
+- I am looking for revenue of [hp](client)
+- I'm looking for revenue of [lenovo](client)
+- I was looking for revenue of [blackrock](client)
+- Looking for revenue for [apple](client).
+- Can you tell me the revenue for [apple](client)?
+- Is there any revnue for my client?
+- Please tell me the revenue for [apple](client)?
+- I am wondering if I can find a revenue ?
+- I am looking for a sales credits for my clients.
+- Is there sales credits for [Fidelity](client)?
+- Looking for sales credits.
+- Looking for revenue for [Fidelity](client).
+- Can you tell me the revenue for [Fidelity](client)?
+- Is there any revenue for my client?
+- Please tell me the revenue for [Fidelity](client)?
+- I am wondering if I can find a revenue for [Micromax](client)?
+- I am looking for sales credits for my clients.
+- Is there salescredits for [Micromax](client)?
+- what is revenue for [Micromax](client)?
+- how revenue for [Micromax](client) looks like?
+- wondering how revenue for [Micromax](client) looks like?
+- Looking for revenue for [hsbc](client).
+- Can you tell me the revenue for [hsbc](client)?
+- Is there any revenue for my client?
+- Please tell me the revenue for [hsbc](client)?
+- I am wondering if I can find a revenue ?
+- I am looking for a sales credits for my clients.
+- Is there sales credits for [microsoft](client)?
+- Looking for sales credits.
+- Looking for revenue for [microsoft](client).
+- Can you tell me the revenue for [microsoft](client)?
+- Is there any revenue for my client?
+- Please tell me the revenue for [microsoft](client)?
+- I am wondering if I can find a revenue for [blackrock](client)?
+- I am looking for sales credits for my clients.
+- Is there salescredits for [blackrock](client)?
+- what is revnue for [blackrock](client)?
+- how revenue for [blackrock](client) looks like?
+- wondering how revnue for [blackrock](client) looks like?
+- revnue
+- Can you tell me the revnue for [microsoft](client)?
+- Is there any revnue for my client?
+- Please tell me the revnue for [microsoft](client)?
+- I am wondering if I can find a revnue for [blackrock](client)?
+- renue
+- I   m looking for revebue
+- I am looking for revenue
+
+## intent:thanks
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- thanks
+- thanks!
+- Cool. Thanks
+- thanks
+- thanks this is great news
+- thank you
+- great thanks
+- Thanks!
+- cool thanks
+- thanks for forum link, I'll check it out
+- thanks!
+
+## synonym:blackrock
+- black rock
+- blackrock inc
+
+## lookup: client
+  data/client.txt

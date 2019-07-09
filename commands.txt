@@ -1,0 +1,43 @@
+-------------------rasa 0.11.1-------------
+python -m rasa_nlu.train -c config.yml --data data/nlu_data.md -o models --fixed_model_name nlu_model --project current --verbose
+
+python -m rasa_core.train -d domain.yml -s data/stories/revenue_stories.md -o models/current/dialogue --epochs 200
+
+python -m rasa_core.run -c cmdline -d models/current/dialogue -u models/current/nlu_model
+
+python -m rasa_core.train --online -d domain.yml -s data/stories/revenue_stories.md -u models/current/nlu_model -o  models/current/dialogue --epochs 200
+
+python -m rasa_core_sdk.endpoint --actions actions
+
+ngrok.exe http 5004
+	
+
+4/dQGTSsn4CQeIjYXh4PEL-hH-shcfT5D1oKySdAI4BRnt9nARjM5NlNE
+4/dgGJaCy1Kz4MMVTocVBignNmjw0HJPvNuJIP1yiF1_2n_Q2OZO-j0Wk
+
+gactions update --action_package action.json --project place-finder-789f8
+
+gactions update --action_package action.json --project flight-deck-99d3d
+
+https://console.actions.google.com/
+
+credentials:
+    GOOGLE_KEY: AIzaSyDBuZIfQruFkeh4154a_fYBDkqLnP5_oi4
+
+
+
+------------------------latest rasa----------------------------
+
+rasa train
+rasa train nlu
+
+rasa run
+rasa run actions
+
+rasa visualize
+
+rasa test
+
+rasa shell
+`
+rasa shell --debug

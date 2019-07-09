@@ -1,0 +1,74 @@
+slots:
+ client:
+   type: unfeaturized
+
+
+intents:
+ - greet
+ - thanks
+ - goodbye
+ - revenue_search
+ - interest_search
+ - create_contact
+ - ask_time
+ - ask_whatismyname
+ - ask_whoisit
+ - ask_wherefrom
+ - ask_whatisrasa
+ - ask_whoami
+ - ask_isbot
+ - handleinsult
+ - ask_weather
+ - ask_howold
+ - ask_builder
+ - ask_languagesbot
+ - nicetomeeyou
+ - telljoke
+ - ask_howdoing
+ - ask_whatspossible
+ 
+ 
+
+entities:
+  - client
+  - firstname
+  - lastname
+  - primaryemail
+
+
+templates:
+  utter_greet:
+    - text: "Hello! I am flight deck assistant. I can provide information about revenue, coverage, contacts etc. So what are you looking for?"    
+    - text: "Hey there! I am flight deck assistant. I can provide information about revenue, coverage, contacts etc. So how may I help you today?"
+  utter_goodbye:
+    - text: "Talk to you later!"
+  utter_thanks:
+    - text: "You are very welcome."
+  utter_ask_client:
+    - text: "for which client?"
+    - text: "client name please?"
+  utter_client_not_found:
+    - text: "Sorry, I could not find client."
+  utter_firstname:
+    - text: "firstname please"
+    - text: "please provide first name"
+  utter_lastname:
+    - text: "lastname please"
+    - text: "please provide last name"
+  utter_primaryemail:
+    - text: "email please"
+    - text: "please provide email"
+    
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_thanks
+  - utter_ask_client
+  - utter_client_not_found
+  - action_restart
+
+forms:
+  - revenue_search_form
+  - interest_search_form
+  - create_contact_form
